@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2411E71B19D3B57A001D8C4E /* Languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2411E71A19D3B57A001D8C4E /* Languages.plist */; };
+		2482A6E919D4840600767A34 /* simlang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482A6E819D4840600767A34 /* simlang.swift */; };
+		2482A6EA19D4843800767A34 /* simlang.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2482A6E819D4840600767A34 /* simlang.swift */; };
+		248ED2A719D35FE100543933 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248ED2A619D35FE100543933 /* AppKit.framework */; };
+		248ED2A919D35FE100543933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248ED2A819D35FE100543933 /* Foundation.framework */; };
+		248ED2AF19D35FE100543933 /* simlang_xcode_plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 248ED2AE19D35FE100543933 /* simlang_xcode_plugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2411E71A19D3B57A001D8C4E /* Languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Languages.plist; sourceTree = "<group>"; };
+		2482A6E819D4840600767A34 /* simlang.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = simlang.swift; sourceTree = "<group>"; };
+		248ED2A319D35FE100543933 /* simlang_xcode_plugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simlang_xcode_plugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		248ED2A619D35FE100543933 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		248ED2A819D35FE100543933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		248ED2AC19D35FE100543933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248ED2AD19D35FE100543933 /* simlang_xcode_plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simlang_xcode_plugin.h; sourceTree = "<group>"; };
+		248ED2AE19D35FE100543933 /* simlang_xcode_plugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simlang_xcode_plugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248ED2A019D35FE100543933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248ED2A719D35FE100543933 /* AppKit.framework in Frameworks */,
+				248ED2A919D35FE100543933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248ED29A19D35FE100543933 = {
+			isa = PBXGroup;
+			children = (
+				248ED2AA19D35FE100543933 /* simlang_xcode_plugin */,
+				248ED2A519D35FE100543933 /* Frameworks */,
+				248ED2A419D35FE100543933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248ED2A419D35FE100543933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248ED2A319D35FE100543933 /* simlang_xcode_plugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248ED2A519D35FE100543933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248ED2A619D35FE100543933 /* AppKit.framework */,
+				248ED2A819D35FE100543933 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		248ED2AA19D35FE100543933 /* simlang_xcode_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				248ED2AD19D35FE100543933 /* simlang_xcode_plugin.h */,
+				248ED2AE19D35FE100543933 /* simlang_xcode_plugin.m */,
+				2411E71A19D3B57A001D8C4E /* Languages.plist */,
+				2482A6E819D4840600767A34 /* simlang.swift */,
+				248ED2AB19D35FE100543933 /* Supporting Files */,
+			);
+			path = simlang_xcode_plugin;
+			sourceTree = "<group>";
+		};
+		248ED2AB19D35FE100543933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				248ED2AC19D35FE100543933 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248ED2A219D35FE100543933 /* simlang_xcode_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248ED2B219D35FE100543933 /* Build configuration list for PBXNativeTarget "simlang_xcode_plugin" */;
+			buildPhases = (
+				248ED29F19D35FE100543933 /* Sources */,
+				248ED2A019D35FE100543933 /* Frameworks */,
+				248ED2A119D35FE100543933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simlang_xcode_plugin;
+			productName = simlang_xcode_plugin;
+			productReference = 248ED2A319D35FE100543933 /* simlang_xcode_plugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248ED29B19D35FE100543933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DanielBeard;
+				TargetAttributes = {
+					248ED2A219D35FE100543933 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 248ED29E19D35FE100543933 /* Build configuration list for PBXProject "simlang_xcode_plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 248ED29A19D35FE100543933;
+			productRefGroup = 248ED2A419D35FE100543933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248ED2A219D35FE100543933 /* simlang_xcode_plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248ED2A119D35FE100543933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2482A6EA19D4843800767A34 /* simlang.swift in Resources */,
+				2411E71B19D3B57A001D8C4E /* Languages.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248ED29F19D35FE100543933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248ED2AF19D35FE100543933 /* simlang_xcode_plugin.m in Sources */,
+				2482A6E919D4840600767A34 /* simlang.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		248ED2B019D35FE100543933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		248ED2B119D35FE100543933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		248ED2B319D35FE100543933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = simlang_xcode_plugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		248ED2B419D35FE100543933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = simlang_xcode_plugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248ED29E19D35FE100543933 /* Build configuration list for PBXProject "simlang_xcode_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248ED2B019D35FE100543933 /* Debug */,
+				248ED2B119D35FE100543933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248ED2B219D35FE100543933 /* Build configuration list for PBXNativeTarget "simlang_xcode_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248ED2B319D35FE100543933 /* Debug */,
+				248ED2B419D35FE100543933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248ED29B19D35FE100543933 /* Project object */;
+}
