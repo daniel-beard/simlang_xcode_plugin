@@ -38,5 +38,119 @@
 		<key>code</key>
 		<string>ja</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>German Switzerland (de-CH)</string>
+		<key>code</key>
+		<string>de-CH</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Greek (el)</string>
+		<key>code</key>
+		<string>el</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Spanish (es)</string>
+		<key>code</key>
+		<string>es</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Spanish Mexico (es-MX)</string>
+		<key>code</key>
+		<string>es-MX</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Finnish (fi)</string>
+		<key>code</key>
+		<string>fi</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>French (fr)</string>
+		<key>code</key>
+		<string>fr</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>French Belgium (fr-BE)</string>
+		<key>code</key>
+		<string>fr-BE</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hebrew (he)</string>
+		<key>code</key>
+		<string>he</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Norwegian (nb)</string>
+		<key>code</key>
+		<string>nb</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dutch (nl)</string>
+		<key>code</key>
+		<string>nl</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Polish (pl)</string>
+		<key>code</key>
+		<string>pl</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Portuguese (pt)</string>
+		<key>code</key>
+		<string>pt</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Portuguese Portugal (pt-PT)</string>
+		<key>code</key>
+		<string>pt-PT</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Romanian (ro)</string>
+		<key>code</key>
+		<string>ro</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Russian (ru)</string>
+		<key>code</key>
+		<string>ru</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Swedish (sv)</string>
+		<key>code</key>
+		<string>sv</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Thai (th)</string>
+		<key>code</key>
+		<string>th</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Turkish (tr)</string>
+		<key>code</key>
+		<string>tr</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Chinese (zh-Hant)</string>
+		<key>code</key>
+		<string>zh-Hant</string>
+	</dict>
 </array>
 </plist>
