@@ -3,7 +3,7 @@ simlang_xcode_plugin
 
 Xcode plugin that lets you change the language of the simulator easily. Proof of concept.
 
-![image](http://i.imgur.com/IQ8voDs.png)
+![image](http://cl.ly/image/1L0b2Q432z2W/Screen%20Shot%202015-02-24%20at%203.07.07%20PM.png)
 
 ### Install
 
@@ -18,4 +18,4 @@ Xcode plugin that lets you change the language of the simulator easily. Proof of
 
 ### Requirements
 
-- Has only been tested on Xcode6.1-Beta
+- Has only been tested on Xcode6 and OS X Yosemite
